@@ -1,4 +1,5 @@
 form {
+    margin-top: 50px;
     width: 800px;
     display: flex;
     align-items: center;
@@ -23,8 +24,13 @@ select {
     padding: 5px;
 }
 button {
-    margin-left: -1.5%;
-    padding: 10px;
+    padding: 10px 15px;
+    background-color: rgb(23, 143, 255);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
 }
 input,
 select,

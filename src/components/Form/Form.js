@@ -32,9 +32,9 @@ const Form = (props) => {
         // eslint-disable-next-line react/prop-types
         props.collectData(newData);
 
-        setEnteredName('');
-        setEnteredAge('');
-        setEnteredFruit('');
+        setEnteredName(enteredName);
+        setEnteredAge(enteredAge);
+        setEnteredFruit(enteredFruit);
     };
 
     return (
